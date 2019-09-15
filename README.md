@@ -32,7 +32,7 @@ so first thing is we need to make a package choose any name for the package i ha
 
 ### struct.go
 
-```
+```go
 package foo
 
 type Exp struct {
@@ -48,7 +48,7 @@ save it we will be using it later.
 
 ### Controller.go
 
-```
+```go
 package foo
 
 import (
@@ -79,7 +79,7 @@ with this we are ready to use controller in our main file
 
 ### main.go
 
-```
+```go
 package main
 
 import (
